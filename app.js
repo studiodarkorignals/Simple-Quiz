@@ -9,15 +9,6 @@ let myList = [
     ],
   },
   {
-    Q: 'Which animal is known as the "Ship of the Desert"?',
-    A: [
-      { item: "Camel", State: true },
-      { item: "Horse", State: false },
-      { item: "Elephant", State: false },
-      { item: "Giraffe", State: false },
-    ],
-  },
-  {
     Q: "What is the largest species of big cat?",
     A: [
       { item: "Leopard", State: false },
@@ -189,70 +180,7 @@ let myList = [
       { item: "Eagle", State: false },
       { item: "Crow", State: false },
     ],
-  },
-  {
-    Q: "What is the smallest mammal in the world?",
-    A: [
-      { item: "Pygmy Marmoset", State: false },
-      { item: "Etruscan Shrew", State: false },
-      { item: "Dwarf Mouse Lemur", State: false },
-      { item: "Bumblebee Bat", State: true },
-    ],
-  },
-  {
-    Q: 'Which animal is known as the "King of the Jungle"?',
-    A: [
-      { item: "Tiger", State: false },
-      { item: "Leopard", State: false },
-      { item: "Lion", State: true },
-      { item: "Cheetah", State: false },
-    ],
-  },
-  {
-    Q: "What is the largest species of penguin?",
-    A: [
-      { item: "Emperor Penguin", State: true },
-      { item: "King Penguin", State: false },
-      { item: "Gentoo Penguin", State: false },
-      { item: "Adelie Penguin", State: false },
-    ],
-  },
-  {
-    Q: "Which animal has the longest gestation period?",
-    A: [
-      { item: "Blue Whale", State: false },
-      { item: "Elephant", State: true },
-      { item: "Giraffe", State: false },
-      { item: "Horse", State: false },
-    ],
-  },
-  {
-    Q: "What is the fastest bird in level flight?",
-    A: [
-      { item: "Common Swift", State: false },
-      { item: "Golden Eagle", State: false },
-      { item: "Spur-winged Goose", State: false },
-      { item: "Peregrine Falcon", State: true },
-    ],
-  },
-  {
-    Q: "Which animal has the longest lifespan?",
-    A: [
-      { item: "African Elephant", State: false },
-      { item: "Galapagos Tortoise", State: false },
-      { item: "Bowhead Whale", State: true },
-      { item: "Greenland Shark", State: false },
-    ],
-  },
-  {
-    Q: "What is the largest species of eagle?",
-    A: [
-      { item: "Bald Eagle", State: false },
-      { item: "Harpy Eagle", State: true },
-      { item: "Golden Eagle", State: false },
-      { item: "Steller's Sea Eagle", State: false },
-    ],
-  },
+  }
 ];
 console.log(myList.length);
 let currentQuestionIndex = 0;
